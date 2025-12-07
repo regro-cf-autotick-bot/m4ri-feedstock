@@ -1,4 +1,4 @@
-{% set version = "20250128" %}
+{% set version = "20251207" %}
 {% set name = "m4ri" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/malb/m4ri/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f35110cc4393be26a12308de2b2566c8a3d96539f2c03c5ab315042fe95e51a5
+  sha256: 9b26c82e4aa852a5930ccabc8de8b9deea333d70bac583abea05ed6381f0fd04
 
 build:
   number: 0
